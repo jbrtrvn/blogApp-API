@@ -25,7 +25,7 @@ mongoose.connection.once('open', () => console.log("Now connected to MongoDB Atl
 
 // [SECTION] Backend Routes
 app.use("/users", userRoutes);
-app.use("/blogs", blogRoutes)
+app.use("/posts", blogRoutes)
 
 
 
